@@ -1,0 +1,103 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    padding: 80px 20px;
+    background-color: #fff;
+}
+
+.tagline {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #555;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.primary-btn {
+    background-color: #0066cc;
+    color: white;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 1px solid #0066cc;
+    color: #0066cc;
+}
+
+.clients {
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.clients .logos img {
+    max-width: 100px;
+    margin: 10px;
+}
+
+.services {
+    padding: 50px;
+}
+
+.service-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
